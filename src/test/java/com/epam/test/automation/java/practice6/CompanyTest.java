@@ -27,6 +27,7 @@ public class CompanyTest {
     }
 
 
+
     private Manager getManager(String name) {
         return new Manager(name, new BigDecimal(5000), new Random(20).nextInt());
     }

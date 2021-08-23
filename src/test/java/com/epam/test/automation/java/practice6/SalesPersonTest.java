@@ -1,9 +1,13 @@
 package com.epam.test.automation.java.practice6;
 
-/**
- * <summary>
- * Implement code according to description of task.
- * </summary>
- */
+import org.testng.annotations.Test;
+
+import java.math.BigDecimal;
+
 public class SalesPersonTest {
+    @Test
+    public void testName() {
+        var bigDecimal = new BigDecimal(-1);
+        System.out.println(bigDecimal.compareTo(new BigDecimal(0)) <= 0);
+    }
 }
